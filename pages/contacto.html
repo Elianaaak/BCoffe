@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bad+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <title>BCoffe!</title>    
+</head>
+<body class="contacto__body">
+        
+    <!-- Menú -->
+
+    <header>           
+        <nav>               
+            <a href="#"><img src="../img/Logo.png" alt="BCoffe!"></a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="43px" height="43px" id="nav__menu-icon" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+            <ul class="menu">
+                <li class="menu__listas"><a href="../Index.html">Inicio</a></li>
+                <li class="menu__listas"><a href="./sobre-nosotros.html">Sobre Nosotros</a></li>
+                <li class="menu__listas"><a href="./productos.html">Productos</a></li>
+                <li class="menu__listas"><a href="./sucursales.html">Sucursales</a></li>
+                <li class="menu__listas"><a href="#">Contacto</a></li>
+            </ul>
+        </nav>    
+    </header>
+
+    <!-- Bienvenida -->
+    
+    <div class="bienvenida-contacto">
+        <h1>Contacto</h1>
+    </div> 
+    <div class="contacto-bgcolor">
+        <h2 class="titulos contacto__titulo">¿Querés ponerte en contacto con nosotros?</h2>
+        
+        <p>Para ponerte en contacto con nosotros, por favor, completa los campos del formulario presente abajo de este texto. </p>
+
+        <!-- formulario -->
+        
+        <div class="formulario">
+            <form action="" method="get" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Contacto</legend>
+                    <div>
+                        <label for="nombreyapellido">Nombre y Apellido:</label>
+                        <input type="text" name="nombreyapellido" id="nombreyapellido">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email:</label>
+                        <br>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="ciudad">Ciudad de residencia:</label>
+                        <input type="text" name="ciudad" id="ciudad">
+                    </div>
+                    <br>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                    <br>
+                    <input type="submit" name="enviar" id="enviar">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <footer>
+        BCoffe! Todos Los Derechos Reservados @2022
+        +54 1234-1234
+    </footer>
+</body>
+</html>
