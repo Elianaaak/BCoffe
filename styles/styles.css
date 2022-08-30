@@ -150,8 +150,13 @@ nav a img {
 .explicacion div img {
     height: 250px;
     border-radius: 6%;
-    box-shadow: 0px 0px 24px 11px rgba(0,0,0,0.67)
+    box-shadow: 0px 0px 24px 11px rgba(0,0,0,0.67);
+    transition: all 0.8s ease;
+}
 
+.explicacion div img:hover {
+    box-shadow: 0px 0px 24px 11px rgb(92, 92, 92);
+    transition: all 0.8s ease;
 }
 
 .parte1__p {
@@ -530,6 +535,21 @@ footer {
 
 }
 
+/* Animaciones */
+
+.img--animacion {
+    transition: all 0.5s ease;
+}
+
+.img--animacion:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.02, 1.02);
+}
+
+.cafe1:hover {
+    box-shadow: white;
+    transition: all 0.5 ease;
+}
 
 /* Inicio Responsive */
 
