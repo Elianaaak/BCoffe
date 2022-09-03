@@ -138,13 +138,6 @@ nav a img {
     padding-left: 80px;
     padding-right: 80px;
     grid-area: explicacion;
-    display: grid;
-    grid-template-areas: 
-        "parte1"
-        "parte2"
-        "boton"
-
-    ;
 }
 
 .explicacion div img {
@@ -164,9 +157,6 @@ nav a img {
 
 .parte2__p {
     grid-area: parte2__p;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .cafe1 {
@@ -176,28 +166,16 @@ nav a img {
 
 .cafe2 {
     grid-area: cafe2;
-    margin-left: 80px;
-    
 }
 
 .explicacion__parte1 {
     grid-area: parte1;
-    display: grid;
-    grid-template-areas: 
-        "cafe1 parte1__p"
-    ;
-    grid-template-columns: 1fr 2fr;
     margin-bottom: 80px;
 
 }
 
 .explicacion__parte2 {
     grid-area: parte2;
-    display: grid;
-    grid-template-areas: 
-        "parte2__p cafe2"
-    ;
-    grid-template-columns: 2fr 1fr;
     margin-bottom: 80px;
 }
 
@@ -589,40 +567,21 @@ footer {
         font-size: 25px;
     }
 
-    .explicacion {
-        padding-left: 0;
-        padding-right: 0;
-    }
-
     .cafe1 {
         width: 300px;
         margin: 0;
-        margin-bottom: 30px;
     }
 
     .cafe2 {
         width: 300px;
         margin: 0;
-        margin-bottom: 30px;
     }
 
     .explicacion__parte1 {
-        grid-template-areas: 
-            "cafe1"
-            "parte1__p"
-
-        ;
-        grid-template-columns: 100vw;
         text-align: center;
     }
 
     .explicacion__parte2 {
-        grid-template-areas: 
-            "cafe2"
-            "parte2__p"
-        
-        ;
-        grid-template-columns: 100vw;
         text-align: center;
     }
 
@@ -635,8 +594,7 @@ footer {
     .explicacion div img {
         width: 250px;
         height: auto;
-        display: flex;
-        justify-self: center;
+        margin-bottom: 30px;
     }
 
     #nav__menu-icon {
@@ -665,6 +623,18 @@ footer {
     }
 
 }
+
+@media screen and (max-width: 768px) {
+
+    .cafe1,
+    .cafe2 {
+        justify-self: center;
+        align-self: center;
+    }
+
+}
+    
+
 
 @media screen and (min-width: 768px) {
     .inicio img {
