@@ -297,36 +297,20 @@ nav a img {
     color: white;
 }
 
-.ubicaciones {
-    text-align: center;
-}
-
-.ubicaciones__mapa1 {
+.mapa-bgcolor1 {
     background-color:#2D261F;
 }
 
-.ubicaciones__mapa2 {
+.mapa-bgcolor2 {
     background-color:#b9b2b0;
 }
 
-.ubicaciones__mapa3 {
-    background-color:#2D261F;
-}
-
-.ubicaciones__mapa4 {
-    background-color:#b9b2b0;
-}
-
-.container-mapa {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-.container-mapa iframe {
+.ubicaciones iframe {
     border-radius: 4%;
     box-shadow: 0px 0px 50px 7px rgba(0,0,0,0.37);
     margin-top: 15px;
     margin-bottom: 15px;
+    padding: 0;
 }
 
 /* Contacto */
