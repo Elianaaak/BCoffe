@@ -196,10 +196,6 @@ nav a img {
 
 /* Productos */
 
-.productos__article p {
-    padding-bottom: 50px;
-}
-
 .productos__article section img {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -228,25 +224,6 @@ nav a img {
     text-align: center; 
 }
 
-.producto--right {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.producto--left {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.producto1 {
-    background-color: #2D261F;
-
-}
-
 .producto1 h3 {
     padding-top: 50px;
 }
@@ -257,10 +234,6 @@ nav a img {
     box-shadow: 0px 0px 50px 7px rgba(0,0,0,0.37)
 }
 
-.producto2 {
-    background-color: #b9b2b0;
-}
-
 .producto2 h3 {
     padding-top: 50px;
 }
@@ -268,21 +241,20 @@ nav a img {
 .producto2 img {
     height: 350px;
     border-radius: 5%;
-    box-shadow: 0px 0px 50px 7px rgba(0,0,0,0.37)
-}
-
-
-.producto3 {
-    background-color: #2D261F;
+    box-shadow: 0px 0px 50px 7px rgba(0,0,0,0.37);
+    padding: 0;
 }
 
 .producto3 h3 {
     padding-top: 50px;
 }
 
+.productos--bgcolor1 {
+    background-color: #2D261F;
+}
 
-.producto4 {
-    background-color:#b9b2b0;
+.productos--bgcolor2 {
+    background-color: #b9b2b0;
 }
 
 .producto4 img {
@@ -304,12 +276,6 @@ nav a img {
     padding-top: 80px;
     margin-top: 0;
     padding-bottom: 80px;
-}
-
-.productos__article p {
-    padding-bottom: 50px;
-    padding-left: 8px;
-    padding-right: 8px;
 }
 
 /* Sucursales */
@@ -671,6 +637,10 @@ footer {
     footer {
         font-size: 20px;
     }
+
+    .nav-link {
+        font-size: 23px;
+    }
 }
 
 /* Fin responsive index */
@@ -759,26 +729,24 @@ footer {
     .productos__titulo {
         font-size: 25px;
     }
-    .producto-base div img {
+    .producto-base div div img {
         width: 300px;
         height: auto;
     }
+
+    #macchiato {
+        width: 200px;
+        height: auto;
+    }
+
     .producto--left p,
     .producto--right p {
         font-size: 18px;
-        padding-left: 8px;
-        padding-right: 8px;
     }
+
     .sobre-nosotrosimg2 h2 {
         font-size: 25px;
         text-align: center;
-    }
-    .producto--left ,
-    .producto--right {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: space-between;
     }
 
 }
@@ -788,20 +756,6 @@ footer {
     }
     .bienvenida-productos h1 {
         font-size: 48px;
-    }
-}
-@media screen and (min-width: 768px) {
-    .producto--left {
-        flex-direction: row;
-    }
-    .producto--right {
-        flex-direction: row-reverse;
-        text-align: center;
-    }
-    #macchiato {
-        height: 270px;
-        width: auto;
-        margin-right: 55px;
     }
 }
 
