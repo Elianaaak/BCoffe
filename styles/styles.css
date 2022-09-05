@@ -358,11 +358,6 @@ form {
     display: flex;
 }
 
-.formulario {
-    display: flex;
-    justify-content: center;
-}
-
 form textarea {
     resize: none;
 }
@@ -942,6 +937,13 @@ footer {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .input,
+    .form-textarea {
+        width: 500px;
+    }
+}
+
 
 @media screen and (min-width: 769px) {
     .bienvenida-contacto h1 {
@@ -961,6 +963,13 @@ footer {
     }
     .contacto__titulo {
         font-size: 72px;
+    }
+    .input,
+    .form-textarea {
+        width: 700px;
+    }
+    .user-label {
+        font-size: 20px;
     }
 }
 
