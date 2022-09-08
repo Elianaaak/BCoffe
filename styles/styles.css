@@ -8,7 +8,7 @@
 
 p {
     font-family: 'Bad Script', cursive;
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 30px;
     color: #fff;
 }
@@ -869,11 +869,6 @@ footer {
     .producto-base div div img {
         width: 300px;
         height: auto;
-    }
-
-    .producto--left p,
-    .producto--right p {
-        font-size: 18px;
     }
 
     .sobre-nosotrosimg2 h2 {
