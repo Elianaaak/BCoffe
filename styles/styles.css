@@ -19,6 +19,26 @@ p {
     font-family: 'Caveat', cursive;
 }
 
+/* Scrollbar */
+
+* {
+    scrollbar-width: 7px;
+    scrollbar-color: #6e5f54;
+}
+
+*::-webkit-scrollbar {
+    width: 7px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: rgb(211, 211, 211);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #6e5f54;
+    border-radius: 10px;
+}
+
 /* Header */
 
 header {
@@ -242,7 +262,22 @@ nav a img {
     margin-bottom: 0;
     text-align: center; 
     padding-top: 50px;
+    cursor:default;
+    transition: all 0.3s ease;
 }
+
+.producto1:hover h3,
+.producto3:hover h3 {
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.82);
+    transition: all 0.3s ease;
+}
+
+.producto2:hover h3,
+.producto4:hover h3 {
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.82);
+    transition: all 0.3s ease;
+}
+
 
 .imgproducto1y3,
 .producto2 img {
@@ -525,12 +560,16 @@ form textarea {
 }
 
 .sobre-nosotrosimg2 {
-    background-color: #fff;
+    background-color: #b9b2b0;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
+}
+
+.opinion--bgcolor{
+    background-color: #b9b2b0;
 }
 
 .sobre-nosotrosimg2 h2 {
@@ -582,14 +621,14 @@ footer {
 
 .productos__article section div img,
 .ubicaciones div iframe {
-    transition: all 0.8s ease;
+    transition: all 0.4s ease;
 }
 
 .explicacion div div div img:hover,
 .productos__article section div img:hover,
 .ubicaciones div iframe:hover {
     box-shadow: 0px 0px 24px 11px rgb(92, 92, 92);
-    transition: all 0.8s ease;
+    transition: all 0.3s ease;
 }
 
 /* Inicio Responsive */
