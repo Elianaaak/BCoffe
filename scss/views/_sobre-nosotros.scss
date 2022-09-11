@@ -1,0 +1,70 @@
+.bienvenida-sobre-nosotros {
+    height: 90vh;
+    background-image: url(../Img/background5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-family: 'Comfortaa', cursive;
+        font-size: 72px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+.nuestra-historia {
+    background-color: #2D261F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+        text-align: center; 
+        padding-top: 40px;
+        padding-bottom: 40px;
+        font-family: 'Caveat', cursive;
+        color: #fff;
+    }
+    img {
+        border-radius: 5%; 
+        height:300px; 
+        box-shadow: 0px 0px 50px 7px rgba(0,0,0,0.37);
+        margin-bottom: 80px;
+        margin-top: 40px;
+    }
+    p {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+
+.sobre-nosotrosimg2 {
+    background-color: #b9b2b0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    h2{
+        font-family: 'Comfortaa', cursive;
+        font-size: 72px;
+        color: #2D261F;
+    }
+}
+
+.opinion--bgcolor{
+    background-color: #b9b2b0;
+    .opiniones {
+        justify-content: center;
+        align-items: center;
+    }
+    img {
+        width: 300px;
+    }
+}
+
+.sobre-nosotros--buttonbgcolor {
+    background-color: #2D261F;
+}
+

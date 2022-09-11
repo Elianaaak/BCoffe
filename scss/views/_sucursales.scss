@@ -1,0 +1,32 @@
+.bienvenida-sucursales {
+    height: 90vh;
+    text-align: center;
+    background-image: url(../Img/background3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-family: 'Comfortaa', cursive;
+        font-size: 72px;
+        color: white;
+    }
+}
+
+.ubicaciones {
+    .mapa-bgcolor1 {
+        background-color:#2D261F;
+    }
+    
+    .mapa-bgcolor2 {
+        background-color:#b9b2b0;
+    }
+    iframe {
+        border-radius: 4%;
+        box-shadow: 0px 0px 50px 7px rgba(0,0,0,0.37);
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding: 0;
+    }
+}

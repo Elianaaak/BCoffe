@@ -3,6 +3,22 @@
   padding: 0;
   box-sizing: border-box; }
 
+.img--animacion {
+  transition: all 0.5s ease; }
+  .img--animacion:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.02, 1.02); }
+
+.cafe1:hover {
+  box-shadow: white;
+  transition: all 0.3s ease; }
+
+.explicacion div div div img:hover,
+.productos__article section div img:hover,
+.ubicaciones div iframe:hover {
+  box-shadow: 0px 0px 24px 11px #5c5c5c;
+  transition: all 0.3s ease; }
+
 form {
   margin-left: auto;
   margin-right: auto;
@@ -130,7 +146,7 @@ nav ul li a {
   color: #a0a0a0 !important;
   font-family: 'Amatic SC', cursive; }
 
-nav .img--animacion {
+nav .navbar-brand img {
   height: 100px; }
 
 nav .custom-active {
@@ -278,4 +294,114 @@ footer {
   background-color: #b9b2b0; }
 
 .productos__article .boton-sucursales {
+  background-color: #2D261F; }
+
+.bienvenida-sucursales {
+  height: 90vh;
+  text-align: center;
+  background-image: url(../Img/background3.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .bienvenida-sucursales h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 72px;
+    color: white; }
+
+.ubicaciones .mapa-bgcolor1 {
+  background-color: #2D261F; }
+
+.ubicaciones .mapa-bgcolor2 {
+  background-color: #b9b2b0; }
+
+.ubicaciones iframe {
+  border-radius: 4%;
+  box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.37);
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0; }
+
+.bienvenida-contacto {
+  height: 90vh;
+  text-align: center;
+  background-image: url(../Img/background4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .bienvenida-contacto h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 72px;
+    color: white; }
+
+.contacto-bgcolor {
+  background-color: #2D261F; }
+  .contacto-bgcolor p {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Bad Script', cursive; }
+  .contacto-bgcolor h2 {
+    text-align: center;
+    padding-top: 40px; }
+
+.bienvenida-sobre-nosotros {
+  height: 90vh;
+  background-image: url(../Img/background5.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .bienvenida-sobre-nosotros h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 72px;
+    color: white; }
+
+.nuestra-historia {
+  background-color: #2D261F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .nuestra-historia h2 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Caveat', cursive;
+    color: #fff; }
+  .nuestra-historia img {
+    border-radius: 5%;
+    height: 300px;
+    box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.37);
+    margin-bottom: 80px;
+    margin-top: 40px; }
+  .nuestra-historia p {
+    padding-left: 8px;
+    padding-right: 8px; }
+
+.sobre-nosotrosimg2 {
+  background-color: #b9b2b0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  .sobre-nosotrosimg2 h2 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 72px;
+    color: #2D261F; }
+
+.opinion--bgcolor {
+  background-color: #b9b2b0; }
+  .opinion--bgcolor .opiniones {
+    justify-content: center;
+    align-items: center; }
+  .opinion--bgcolor img {
+    width: 300px; }
+
+.sobre-nosotros--buttonbgcolor {
   background-color: #2D261F; }

@@ -1,5 +1,6 @@
 
 @import './base/_reset.scss';
+@import './base/_animaciones';
 @import './layout/_form.scss';
 @import './componentes/_button.scss';
 @import './componentes/_scrollbar.scss';
@@ -7,3 +8,6 @@
 @import './layout/_footer.scss';
 @import './views/_index.scss';
 @import './views/_productos.scss';
+@import './views/_sucursales';
+@import './views/_contacto';
+@import './views/_sobre-nosotros';

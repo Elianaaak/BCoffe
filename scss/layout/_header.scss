@@ -12,8 +12,10 @@ nav {
             }
         }
     }
-    .img--animacion {
-        height: 100px;
+    .navbar-brand {
+        img {
+            height: 100px;
+        }
     }
     .custom-active {
         color: #ffffff !important;
