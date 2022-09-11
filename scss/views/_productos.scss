@@ -1,0 +1,55 @@
+.bienvenida-productos {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Img/background2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    h1 {
+        font-family: 'Comfortaa', cursive;
+        font-size: 72px;
+        color: white;
+    }
+}
+
+.productos__article {
+    section {
+        img {
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        .productos__titulo {
+            margin-bottom: 0;
+            text-align: center; 
+            padding-top: 50px;
+            cursor: default;
+            transition: all 0.3s ease;
+        }
+    }
+    .producto1:hover h3,
+    .producto3:hover h3 {
+        text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.82);
+    }
+    .producto2:hover h3,
+    .producto4:hover h3 {
+        text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.82);
+    }
+    .imgproducto1y3,
+    .producto2 img,
+    .producto4 img {
+        height: 300px;
+        border-radius: 5%;
+        box-shadow: 0px 0px 50px 7px rgba(0,0,0,0.37)
+    }
+    .productos--bgcolor1 {
+        background-color: #2D261F;
+    }
+    .productos--bgcolor2 {
+        background-color: #b9b2b0;
+    }
+    .boton-sucursales {
+        background-color: #2D261F;
+    }
+    
+}
