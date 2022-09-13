@@ -21,9 +21,12 @@
         grid-area: bienvenida;
         h1 {
             font-family: 'Comfortaa', cursive;
-            font-size: 72px;
+            font-size: 3rem;
             color: #fff;
             text-align: center;
+            @include min-1920 {
+                font-size: $font-1920-h1;
+            }
         }
     }
     .inicio {
@@ -37,19 +40,37 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        @include mobile-tablet {
+            padding-left: 8px;
+            padding-right: 8px;
+        }
         img {
             box-shadow: 0px 0px 24px 11px rgba(0,0,0,0.67);
             border-radius: 2%;
             width: 50%;
             margin-top: 40px;
+            @include mobile-tablet {
+                width: 90vw;
+            }
+            @include min-600 {
+                width: 75vw;
+            }
+            @include min-768 {
+                width: 50vw;
+            }
+            @include min-1920 {
+                width: 46vw;
+            }
         }
         p {
             margin-top: 40px;
             color: #fff;
-            font-size: 20px;
+            font-size: $font-p;
+            line-height: $line-p;
         }
         h2 {
             color: #fff;
+            font-size: $font-h2;
         }
     
     }
@@ -64,8 +85,11 @@
         align-items: center;
         h2 {
             font-family: 'Comfortaa', cursive;
-            font-size: 72px;
+            font-size: $font-h2;
             color: white;
+            @include min-1920 {
+                font-size: $font-1920-h2;
+            }
         }
     }
     .explicacion {
@@ -81,6 +105,11 @@
                 border-radius: 6%;
                 box-shadow: 0px 0px 24px 11px rgba(0,0,0,0.67);
                 transition: all 0.8s ease;
+                @include mobile-tablet {
+                    width: 250px;
+                    height: auto;
+                    margin-bottom: 30px;
+                }
             }
         }
         .explicacion__parte1 {
@@ -91,10 +120,27 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
+                font-size: $font-p;
+                line-height: $line-p;
+                @include mobile-tablet {
+                    padding-left: 8px;
+                    padding-right: 8px;
+                }
             }
             .cafe1 {
                 grid-area: cafe1;
                 margin-right: 80px;
+                @include mobile-tablet {
+                    width: 300px;
+                    margin: 0;
+                }
+                @include max-768 {
+                    justify-self: center;
+                    align-self: center;
+                }
+            }
+            @include mobile-tablet {
+                text-align: center;
             }
         }
         .explicacion__parte2 {
@@ -102,9 +148,26 @@
             margin-bottom: 80px;
             .parte2__p {
                 grid-area: parte2__p;
+                font-size: $font-p;
+                line-height: $line-p;
+                @include mobile-tablet {
+                    padding-left: 8px;
+                    padding-right: 8px;
+                }
             }
             .cafe2 {
                 grid-area: cafe2;
+                @include mobile-tablet {
+                    width: 300px;
+                    margin: 0;
+                }
+                @include max-768 {
+                    justify-self: center;
+                    align-self: center;
+                }
+            }
+            @include mobile-tablet {
+                text-align: center;
             }
         }
     }

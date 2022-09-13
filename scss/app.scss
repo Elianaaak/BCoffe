@@ -1,6 +1,8 @@
-
-@import './base/_reset.scss';
 @import './base/_animaciones';
+@import './base/_reset.scss';
+@import './base/general-fonts';
+@import './base/mixins';
+@import './base/variables';
 @import './layout/_form.scss';
 @import './componentes/_button.scss';
 @import './componentes/_scrollbar.scss';

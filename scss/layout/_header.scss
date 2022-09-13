@@ -15,6 +15,10 @@ nav {
     .navbar-brand {
         img {
             height: 100px;
+            @include min-1920 {
+                height: 150px;
+                width: 150px;
+            }
         }
     }
     .custom-active {
@@ -22,5 +26,17 @@ nav {
     }
     .nav-link-hover:hover {
         color: rgb(216, 216, 216) !important;
+    }
+    .nav-link {
+        @include min-1920 {
+            font-size: 1.65rem;
+        }
+    }
+    .mobile-sticky {
+        @include mobile-tablet {
+            position: sticky;
+            top: 0;
+            z-index: 1020;
+        }
     }
 }

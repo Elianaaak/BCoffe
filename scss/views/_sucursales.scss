@@ -9,8 +9,11 @@
     align-items: center;
     h1 {
         font-family: 'Comfortaa', cursive;
-        font-size: 72px;
+        font-size: $font-h1;
         color: white;
+        @include min-1920 {
+            font-size: $font-1920-h1;
+        }
     }
 }
 
@@ -28,5 +31,30 @@
         margin-top: 15px;
         margin-bottom: 15px;
         padding: 0;
+        width: 500px;
+        height: 500px;
+        @include mobile-tablet {
+            width: 300px;
+            height: 300px;
+        }
+        @include min-600 {
+            height: 400px;
+            width: 400px;
+        }
+        @include min-1920 {
+            width: 800px;
+            height: 800px;
+        }
+    }
+    p {
+        font-size: $font-p;
+    }
+    div {
+        h2 {
+            font-size: $font-h2;
+            @include min-1920 {
+                font-size: $font-1920-h2;
+            }
+        }
     }
 }
