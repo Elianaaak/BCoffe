@@ -17,7 +17,7 @@
 }
 
 .nuestra-historia {
-    background-color: #2D261F;
+    background-color: map-get($colors, primary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +63,7 @@
 }
 
 .sobre-nosotrosimg2 {
-    background-color: #b9b2b0;
+    background-color: map-get($colors, secondary-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +72,7 @@
     h2{
         font-family: 'Comfortaa', cursive;
         font-size: $font-h2;
-        color: #2D261F;
+        color: map-get($colors, primary-color);
         @include min-1920 {
             font-size: $font-1920-h2;
         }
@@ -80,7 +80,7 @@
 }
 
 .opinion--bgcolor{
-    background-color: #b9b2b0;
+    background-color: map-get($colors, secondary-color);
     .opiniones {
         justify-content: center;
         align-items: center;
@@ -94,6 +94,6 @@
 }
 
 .sobre-nosotros--buttonbgcolor {
-    background-color: #2D261F;
+    background-color: map-get($colors, primary-color);
 }
 

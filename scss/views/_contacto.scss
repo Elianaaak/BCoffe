@@ -18,7 +18,7 @@
 }
 
 .contacto-bgcolor {
-    background-color: #2D261F;
+    background-color: map-get($colors, primary-color);
     p {
         text-align: center;
         margin-top: 40px;

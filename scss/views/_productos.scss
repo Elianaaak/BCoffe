@@ -54,13 +54,13 @@
         box-shadow: 0px 0px 50px 7px rgba(0,0,0,0.37)
     }
     .productos--bgcolor1 {
-        background-color: #2D261F;
+        background-color: map-get($colors, primary-color);
     }
     .productos--bgcolor2 {
-        background-color: #b9b2b0;
+        background-color: map-get($colors, secondary-color);
     }
     .boton-sucursales {
-        background-color: #2D261F;
+        background-color: map-get($colors, primary-color);
     }
     
 }

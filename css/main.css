@@ -137,7 +137,7 @@ form {
     border-color: #b9b2b0;
     color: #b9b2b0;
     font-family: 'Comfortaa', cursive;
-    font-size: 14px;
+    font-size: 1.1rem;
     transition: all 0.35s ease; }
     .boton button:hover {
       background-color: #b9b2b0;
@@ -196,10 +196,15 @@ footer {
   background-color: #3a322c;
   padding-top: 80px;
   padding-bottom: 80px;
-  font-size: 1.49rem;
   text-align: center;
   color: white;
   grid-area: footer; }
+  footer p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1rem; }
+    @media screen and (min-width: 1920px) {
+      footer p {
+        font-size: 1.2rem; } }
 
 .index__body {
   display: grid;

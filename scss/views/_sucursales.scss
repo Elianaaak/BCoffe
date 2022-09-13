@@ -19,11 +19,11 @@
 
 .ubicaciones {
     .mapa-bgcolor1 {
-        background-color:#2D261F;
+        background-color:map-get($colors, primary-color);
     }
     
     .mapa-bgcolor2 {
-        background-color:#b9b2b0;
+        background-color:map-get($colors, secondary-color);
     }
     iframe {
         border-radius: 4%;
