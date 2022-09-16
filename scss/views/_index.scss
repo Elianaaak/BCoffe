@@ -138,6 +138,9 @@
                     justify-self: center;
                     align-self: center;
                 }
+                &:hover {
+                    @extend .iframe--anim;
+                }
             }
             @include mobile-tablet {
                 text-align: center;
@@ -164,6 +167,9 @@
                 @include max-768 {
                     justify-self: center;
                     align-self: center;
+                }
+                &:hover {
+                    @extend .iframe--anim;
                 }
             }
             @include mobile-tablet {

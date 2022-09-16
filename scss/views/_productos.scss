@@ -25,6 +25,7 @@
                 width: 300px;
                 height: auto;
             }
+            @extend .iframe--anim;
         }
         .productos__titulo {
             margin-bottom: 0;
