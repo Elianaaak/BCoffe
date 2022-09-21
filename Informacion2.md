@@ -1,1 +1,0 @@
-GitHub del curso de desarrollo web de CoderHouse. Por Elián Gonzalo.
