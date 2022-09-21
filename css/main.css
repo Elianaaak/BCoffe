@@ -19,8 +19,8 @@
   padding: 0;
   box-sizing: border-box; }
 
-p {
-  font-family: 'Poppins', sans-serif;
+* p {
+  font-family: 'Lexend', sans-serif;
   font-size: 1.49rem;
   line-height: 1.9rem;
   color: #fff; }
@@ -163,18 +163,21 @@ form {
 
 header {
   background-color: #3a322c;
-  grid-area: header; }
+  grid-area: header;
+  position: sticky;
+  top: 0;
+  z-index: 3000; }
 
 nav ul li a {
   color: #a0a0a0 !important;
   font-family: 'Amatic SC', cursive; }
 
 nav .navbar-brand img {
-  height: 100px; }
+  height: 75px; }
   @media screen and (min-width: 1920px) {
     nav .navbar-brand img {
-      height: 150px;
-      width: 150px; } }
+      height: 115px;
+      width: 115px; } }
 
 nav .custom-active {
   color: #ffffff !important; }
@@ -185,12 +188,6 @@ nav .nav-link-hover:hover {
 @media screen and (min-width: 1920px) {
   nav .nav-link {
     font-size: 1.65rem; } }
-
-@media screen and (max-width: 1024px) {
-  nav .mobile-sticky {
-    position: sticky;
-    top: 0;
-    z-index: 1020; } }
 
 footer {
   background-color: #3a322c;
@@ -208,7 +205,7 @@ footer {
 
 .index__body {
   display: grid;
-  grid-template-areas: "header" "bienvenida" "inicio" "backgroun" "explicacion" "footer";
+  grid-template-areas: "header" "bienvenida" "inicio" "backgroun" "explicacion" "footer";
   max-width: 100%;
   overflow-x: hidden; }
   .index__body .bienvenida {
@@ -264,8 +261,7 @@ footer {
       margin-top: 40px;
       color: #fff;
       font-size: 1.49rem;
-      line-height: 1.9rem;
-      font-family: 'Poppins', sans-serif; }
+      line-height: 1.9rem; }
     .index__body .inicio h2 {
       color: #fff;
       font-size: 2.6rem; }
@@ -390,6 +386,20 @@ footer {
     .productos__article section .productos__titulo {
       font-size: 3rem; } }
 
+.productos__article .producto2 p,
+.productos__article .producto4 p {
+  font-weight: bold; }
+
+.productos__article .producto2 h3,
+.productos__article .producto2 p,
+.productos__article .producto4 h3,
+.productos__article .producto4 p {
+  color: #2D261F; }
+
+.productos__article .producto1 p,
+.productos__article .producto3 p {
+  font-weight: bold; }
+
 .productos__article .producto1:hover h3,
 .productos__article .producto3:hover h3 {
   text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.82); }
@@ -401,7 +411,8 @@ footer {
 .productos__article .imgproducto1y3,
 .productos__article .producto2 img,
 .productos__article .producto4 img {
-  height: 300px;
+  width: 450px;
+  height: auto;
   border-radius: 5%;
   box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.37); }
 

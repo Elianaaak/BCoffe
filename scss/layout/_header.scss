@@ -1,6 +1,10 @@
 header {
     background-color: map-get($colors, tertiary-color);
     grid-area: header;
+    position: sticky; 
+    top: 0;
+    z-index: 3000;
+
 }
 
 nav {
@@ -14,10 +18,10 @@ nav {
     }
     .navbar-brand {
         img {
-            height: 100px;
+            height: 75px;
             @include min-1920 {
-                height: 150px;
-                width: 150px;
+                height: 115px;
+                width: 115px;
             }
         }
     }
@@ -30,13 +34,6 @@ nav {
     .nav-link {
         @include min-1920 {
             font-size: 1.65rem;
-        }
-    }
-    .mobile-sticky {
-        @include mobile-tablet {
-            position: sticky;
-            top: 0;
-            z-index: 1020;
         }
     }
 }

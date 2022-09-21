@@ -39,27 +39,52 @@
             }
         }
     }
+
+    .producto2,
+    .producto4 {
+        p {
+            font-weight: bold;
+        }
+        h3,
+        p {
+            color: map-get($colors, primary-color)
+        }
+    }
+
+    .producto1,
+    .producto3 {
+        p {
+            font-weight: bold;
+        }
+    }
+
     .producto1:hover h3,
     .producto3:hover h3 {
         text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.82);
     }
+
     .producto2:hover h3,
     .producto4:hover h3 {
         text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.82);
     }
+
     .imgproducto1y3,
     .producto2 img,
     .producto4 img {
-        height: 300px;
+        width: 450px;
+        height: auto;
         border-radius: 5%;
         box-shadow: 0px 0px 50px 7px rgba(0,0,0,0.37)
     }
+
     .productos--bgcolor1 {
         background-color: map-get($colors, primary-color);
     }
+
     .productos--bgcolor2 {
         background-color: map-get($colors, secondary-color);
     }
+
     .boton-sucursales {
         background-color: map-get($colors, primary-color);
     }
