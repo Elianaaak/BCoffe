@@ -24,6 +24,12 @@
     
     .mapa-bgcolor2 {
         background-color:map-get($colors, secondary-color);
+        h2 {
+            color: map-get($colors, primary-color);
+        }
+        p {
+            color: map-get($colors, primary-color);
+        }
     }
     iframe {
         border-radius: 4%;

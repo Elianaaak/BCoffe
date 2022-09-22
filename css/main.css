@@ -20,7 +20,7 @@
   box-sizing: border-box; }
 
 * p {
-  font-family: 'Lexend', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
   font-size: 1.49rem;
   line-height: 1.9rem;
   color: #fff; }
@@ -133,7 +133,8 @@ form {
     border-style: solid;
     border-width: 4px;
     height: 60px;
-    width: 180px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     border-color: #b9b2b0;
     color: #b9b2b0;
     font-family: 'Comfortaa', cursive;
@@ -243,20 +244,19 @@ footer {
     .index__body .inicio img {
       box-shadow: 0px 0px 24px 11px rgba(0, 0, 0, 0.67);
       border-radius: 2%;
-      width: 50%;
       margin-top: 40px; }
       @media screen and (max-width: 1024px) {
         .index__body .inicio img {
           width: 90vw; } }
       @media screen and (min-width: 600px) {
         .index__body .inicio img {
-          width: 75vw; } }
+          width: 80vw; } }
       @media screen and (min-width: 768px) {
         .index__body .inicio img {
-          width: 50vw; } }
+          width: 57vw; } }
       @media screen and (min-width: 1920px) {
         .index__body .inicio img {
-          width: 46vw; } }
+          width: 50vw; } }
     .index__body .inicio p {
       margin-top: 40px;
       color: #fff;
@@ -369,7 +369,8 @@ footer {
 
 .productos__article section img {
   margin-top: 50px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  width: 450px; }
   @media screen and (max-width: 1024px) {
     .productos__article section img {
       width: 300px;
@@ -396,10 +397,6 @@ footer {
 .productos__article .producto4 p {
   color: #2D261F; }
 
-.productos__article .producto1 p,
-.productos__article .producto3 p {
-  font-weight: bold; }
-
 .productos__article .producto1:hover h3,
 .productos__article .producto3:hover h3 {
   text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.82); }
@@ -411,8 +408,6 @@ footer {
 .productos__article .imgproducto1y3,
 .productos__article .producto2 img,
 .productos__article .producto4 img {
-  width: 450px;
-  height: auto;
   border-radius: 5%;
   box-shadow: 0px 0px 50px 7px rgba(0, 0, 0, 0.37); }
 
@@ -447,6 +442,10 @@ footer {
 
 .ubicaciones .mapa-bgcolor2 {
   background-color: #b9b2b0; }
+  .ubicaciones .mapa-bgcolor2 h2 {
+    color: #2D261F; }
+  .ubicaciones .mapa-bgcolor2 p {
+    color: #2D261F; }
 
 .ubicaciones iframe {
   border-radius: 4%;
