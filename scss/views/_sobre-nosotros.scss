@@ -1,5 +1,5 @@
 .bienvenida-sobre-nosotros {
-    height: 90vh;
+    height: 85vh;
     background-image: url(../Img/background5.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -13,6 +13,7 @@
         @include min-1920 {
             font-size: $font-1920-h1;
         }
+        @include bgcolor-h1
     }
 }
 
@@ -51,7 +52,7 @@
             width: 50vw;
         }
         @include min-1920 {
-            width: 46vw;
+            width: 35vw;
         }
     }
     p {
@@ -97,3 +98,8 @@
     background-color: map-get($colors, primary-color);
 }
 
+.border-custom {
+    @include max-1200 {
+        border-right: none !important;
+    }
+}

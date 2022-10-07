@@ -1,5 +1,5 @@
 .bienvenida-sucursales {
-    height: 90vh;
+    height: 85vh;
     text-align: center;
     background-image: url(../Img/background3.jpg);
     background-size: cover;
@@ -14,6 +14,7 @@
         @include min-1920 {
             font-size: $font-1920-h1;
         }
+        @include bgcolor-h1
     }
 }
 
@@ -48,8 +49,8 @@
             width: 400px;
         }
         @include min-1920 {
-            width: 800px;
-            height: 800px;
+            width: 520px;
+            height: 520px;
         }
     }
     p {

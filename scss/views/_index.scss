@@ -11,7 +11,7 @@
     max-width: 100%;
     overflow-x: hidden;
     .bienvenida {
-        height: 90vh;
+        height: 85vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -27,6 +27,7 @@
             @include min-1920 {
                 font-size: $font-1920-h1;
             }
+            @include bgcolor-h1
         }
     }
     .inicio {
@@ -58,7 +59,7 @@
                 width: 57vw;
             }
             @include min-1920 {
-                width: 50vw;
+                width: 35vw;
             }
         }
         p {

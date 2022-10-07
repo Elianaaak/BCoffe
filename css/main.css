@@ -188,7 +188,7 @@ nav .nav-link-hover:hover {
 
 @media screen and (min-width: 1920px) {
   nav .nav-link {
-    font-size: 1.65rem; } }
+    font-size: 1.3rem; } }
 
 footer {
   background-color: #3a322c;
@@ -206,11 +206,11 @@ footer {
 
 .index__body {
   display: grid;
-  grid-template-areas: "header" "bienvenida" "inicio" "backgroun" "explicacion" "footer";
+  grid-template-areas: "header" "bienvenida" "inicio" "backgroun" "explicacion" "footer";
   max-width: 100%;
   overflow-x: hidden; }
   .index__body .bienvenida {
-    height: 90vh;
+    height: 85vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -222,7 +222,9 @@ footer {
       font-family: 'Comfortaa', cursive;
       font-size: 3rem;
       color: #fff;
-      text-align: center; }
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.47);
+      border-radius: 10px; }
       @media screen and (min-width: 1920px) {
         .index__body .bienvenida h1 {
           font-size: 4.5rem; } }
@@ -256,7 +258,7 @@ footer {
           width: 57vw; } }
       @media screen and (min-width: 1920px) {
         .index__body .inicio img {
-          width: 50vw; } }
+          width: 35vw; } }
     .index__body .inicio p {
       margin-top: 40px;
       color: #fff;
@@ -352,7 +354,7 @@ footer {
           text-align: center; } }
 
 .bienvenida-productos {
-  height: 90vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -362,7 +364,9 @@ footer {
   .bienvenida-productos h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 3rem;
-    color: white; }
+    color: white;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 10px; }
     @media screen and (min-width: 1920px) {
       .bienvenida-productos h1 {
         font-size: 4.5rem; } }
@@ -421,7 +425,7 @@ footer {
   background-color: #2D261F; }
 
 .bienvenida-sucursales {
-  height: 90vh;
+  height: 85vh;
   text-align: center;
   background-image: url(../Img/background3.jpg);
   background-size: cover;
@@ -432,7 +436,9 @@ footer {
   .bienvenida-sucursales h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 3rem;
-    color: white; }
+    color: white;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 10px; }
     @media screen and (min-width: 1920px) {
       .bienvenida-sucursales h1 {
         font-size: 4.5rem; } }
@@ -465,8 +471,8 @@ footer {
       width: 400px; } }
   @media screen and (min-width: 1920px) {
     .ubicaciones iframe {
-      width: 800px;
-      height: 800px; } }
+      width: 520px;
+      height: 520px; } }
 
 .ubicaciones p {
   font-size: 1.49rem; }
@@ -478,7 +484,7 @@ footer {
       font-size: 3rem; } }
 
 .bienvenida-contacto {
-  height: 90vh;
+  height: 85vh;
   text-align: center;
   background-image: url(../Img/background4.jpg);
   background-size: cover;
@@ -489,7 +495,9 @@ footer {
   .bienvenida-contacto h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 3rem;
-    color: white; }
+    color: white;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 10px; }
     @media screen and (min-width: 1920px) {
       .bienvenida-contacto h1 {
         font-size: 4.5rem; } }
@@ -511,7 +519,7 @@ footer {
         font-size: 3rem; } }
 
 .bienvenida-sobre-nosotros {
-  height: 90vh;
+  height: 85vh;
   background-image: url(../Img/background5.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -521,7 +529,9 @@ footer {
   .bienvenida-sobre-nosotros h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 3rem;
-    color: white; }
+    color: white;
+    background-color: rgba(0, 0, 0, 0.47);
+    border-radius: 10px; }
     @media screen and (min-width: 1920px) {
       .bienvenida-sobre-nosotros h1 {
         font-size: 4.5rem; } }
@@ -561,7 +571,7 @@ footer {
         width: 50vw; } }
     @media screen and (min-width: 1920px) {
       .nuestra-historia img {
-        width: 46vw; } }
+        width: 35vw; } }
   .nuestra-historia p {
     padding-left: 8px;
     padding-right: 8px;
@@ -596,3 +606,7 @@ footer {
 
 .sobre-nosotros--buttonbgcolor {
   background-color: #2D261F; }
+
+@media screen and (max-width: 1200px) {
+  .border-custom {
+    border-right: none !important; } }

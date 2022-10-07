@@ -1,5 +1,5 @@
 .bienvenida-productos {
-    height: 90vh;
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,7 @@
         @include min-1920 {
             font-size: $font-1920-h1;
         }
+        @include bgcolor-h1
     }
 }
 
