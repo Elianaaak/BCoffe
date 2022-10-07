@@ -1,11 +1,6 @@
 .bienvenida-productos {
-    height: 85vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include bienvenidas;
     background-image: url(../Img/background2.jpg);
-    background-size: cover;
-    background-attachment: fixed;
     h1 {
         font-family: 'Comfortaa', cursive;
         font-size: $font-h1;

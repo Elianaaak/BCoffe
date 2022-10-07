@@ -13,6 +13,7 @@ nav {
             a{
                 color: rgb(160, 160, 160) !important;
                 font-family: 'Amatic SC', cursive;
+
             }
         }
     }
@@ -27,9 +28,11 @@ nav {
     }
     .custom-active {
         color: #ffffff !important;
+        text-decoration: underline !important;
     }
     .nav-link-hover:hover {
         color: rgb(216, 216, 216) !important;
+        text-decoration: underline !important;
     }
     .nav-link {
         @include min-1920 {

@@ -11,13 +11,8 @@
     max-width: 100%;
     overflow-x: hidden;
     .bienvenida {
-        height: 85vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include bienvenidas;
         background-image: url(../Img/background.jpg);
-        background-size: cover;
-        background-attachment: fixed;
         grid-area: bienvenida;
         h1 {
             font-family: 'Comfortaa', cursive;

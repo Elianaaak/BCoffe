@@ -181,10 +181,12 @@ nav .navbar-brand img {
       width: 115px; } }
 
 nav .custom-active {
-  color: #ffffff !important; }
+  color: #ffffff !important;
+  text-decoration: underline !important; }
 
 nav .nav-link-hover:hover {
-  color: #d8d8d8 !important; }
+  color: #d8d8d8 !important;
+  text-decoration: underline !important; }
 
 @media screen and (min-width: 1920px) {
   nav .nav-link {
@@ -213,10 +215,10 @@ footer {
     height: 85vh;
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-image: url(../Img/background.jpg);
     background-size: cover;
     background-attachment: fixed;
+    justify-content: center;
+    background-image: url(../Img/background.jpg);
     grid-area: bienvenida; }
     .index__body .bienvenida h1 {
       font-family: 'Comfortaa', cursive;
@@ -356,11 +358,11 @@ footer {
 .bienvenida-productos {
   height: 85vh;
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-image: url(../Img/background2.jpg);
   background-size: cover;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  justify-content: center;
+  background-image: url(../Img/background2.jpg); }
   .bienvenida-productos h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 3rem;
@@ -426,13 +428,12 @@ footer {
 
 .bienvenida-sucursales {
   height: 85vh;
-  text-align: center;
-  background-image: url(../Img/background3.jpg);
+  display: flex;
+  align-items: center;
   background-size: cover;
   background-attachment: fixed;
-  display: flex;
   justify-content: center;
-  align-items: center; }
+  background-image: url(../Img/background3.jpg); }
   .bienvenida-sucursales h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 3rem;
@@ -471,8 +472,8 @@ footer {
       width: 400px; } }
   @media screen and (min-width: 1920px) {
     .ubicaciones iframe {
-      width: 520px;
-      height: 520px; } }
+      width: 560px;
+      height: 560px; } }
 
 .ubicaciones p {
   font-size: 1.49rem; }
@@ -485,13 +486,12 @@ footer {
 
 .bienvenida-contacto {
   height: 85vh;
-  text-align: center;
-  background-image: url(../Img/background4.jpg);
+  display: flex;
+  align-items: center;
   background-size: cover;
   background-attachment: fixed;
-  display: flex;
   justify-content: center;
-  align-items: center; }
+  background-image: url(../Img/background4.jpg); }
   .bienvenida-contacto h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 3rem;
@@ -520,12 +520,12 @@ footer {
 
 .bienvenida-sobre-nosotros {
   height: 85vh;
-  background-image: url(../Img/background5.jpg);
+  display: flex;
+  align-items: center;
   background-size: cover;
   background-attachment: fixed;
-  display: flex;
   justify-content: center;
-  align-items: center; }
+  background-image: url(../Img/background5.jpg); }
   .bienvenida-sobre-nosotros h1 {
     font-family: 'Comfortaa', cursive;
     font-size: 3rem;

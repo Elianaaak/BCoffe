@@ -1,12 +1,6 @@
 .bienvenida-contacto {
-    height: 85vh;
-    text-align: center;
+    @include bienvenidas;
     background-image: url(../Img/background4.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     h1 {
         font-family: 'Comfortaa', cursive;
         font-size: $font-h1;
